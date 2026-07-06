@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Xcode build output
+DerivedData/
+build/
+*.xcarchive
+
+# SwiftPM / tooling
+.build/
+.swiftpm/
+
+# Local secrets
+.env
+*.mobileprovision
+*.p12
+*.cer
+
