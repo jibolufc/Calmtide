@@ -68,6 +68,34 @@ This file captures the working decisions made while building CalmTide.
   - Screenshots
   - TestFlight build upload
 
+## Android And Google Play Prep
+
+- Added a native Android project scaffold under `Android/`.
+- Chosen Android stack:
+  - Kotlin
+  - Jetpack Compose
+  - Gradle Android application project
+  - Package name `com.ayodele.calmtide`
+  - Minimum SDK 26
+  - Target SDK 35
+- Mirrored CalmTide core features:
+  - Dashboard controls
+  - Breathing phase durations
+  - Reminder toggle and interval
+  - Session screen with animated tide visual
+  - Pause, resume, skip, and end session controls
+  - Local settings persistence
+  - Local notification reminders
+- Added `GooglePlaySubmission/` with:
+  - Google Play requirements tracker
+  - Store listing copy
+  - Data safety draft
+  - Android release checklist
+  - Screenshot plan
+  - Android privacy policy draft
+- Current Android blocker:
+  - Android Studio, Android SDK tools, and Gradle are not installed in this workspace, so a release `.aab` build has not been verified yet.
+
 ## Build Verification
 
 Verified these builds successfully after product polish:
@@ -76,4 +104,3 @@ Verified these builds successfully after product polish:
 xcodebuild -project CalmTide.xcodeproj -scheme CalmTide -destination generic/platform=iOS CODE_SIGNING_ALLOWED=NO build
 xcodebuild -project CalmTide.xcodeproj -scheme CalmTide -destination generic/platform=macOS CODE_SIGNING_ALLOWED=NO build
 ```
-

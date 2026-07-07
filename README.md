@@ -8,8 +8,9 @@ The app guides users through inhale, hold, exhale, and rest phases with an anima
 
 - iOS 17.0+
 - macOS 14.0+
+- Android scaffold: native Kotlin/Jetpack Compose project under `Android/`
 
-The target is a native Xcode app project, not a runnable Swift Package executable.
+The Apple target is a native Xcode app project, not a runnable Swift Package executable.
 
 ## Project
 
@@ -54,3 +55,8 @@ Current blockers before App Store submission:
 
 Planning notes for Google Play and Windows live in `PlatformPlans/`.
 
+## Android / Google Play Prep
+
+The Android version lives in `Android/` and is intended to be opened with Android Studio. Google Play submission drafts live in `GooglePlaySubmission/`.
+
+Current Android blocker: this workspace does not yet have Android Studio, the Android SDK command-line tools, or Gradle installed, so the Android app bundle has not been locally verified here.

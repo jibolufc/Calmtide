@@ -9,9 +9,10 @@ Android guided breathing app based on CalmTide.
 - Kotlin
 - Jetpack Compose
 - Android Studio
-- Minimum Android version: decide later, likely Android 8 or newer for broad reach
+- Minimum Android version: SDK 26 / Android 8.0
+- Target Android version: SDK 35 / Android 15
 - Local notifications with Android notification permission handling
-- DataStore or SharedPreferences for settings persistence
+- SharedPreferences for settings persistence in the first Android scaffold
 
 ## Features To Match
 
@@ -29,7 +30,7 @@ Android guided breathing app based on CalmTide.
 
 - Google Play Developer account.
 - App signing setup.
-- Package name, likely `com.ayodele.calmtide`.
+- Package name: `com.ayodele.calmtide`.
 - App icon.
 - Feature graphic.
 - Screenshots.
@@ -40,6 +41,12 @@ Android guided breathing app based on CalmTide.
 - Content rating.
 - Internal testing release before production.
 
+## Current Android Scaffold
+
+- Native Android project created in `Android/`.
+- Google Play submission prep created in `GooglePlaySubmission/`.
+- Build not yet verified locally because Android Studio, Android SDK tools, and Gradle are not installed in this workspace.
+
 ## Store Positioning
 
 Use guided breathing, relaxation, and wellness language. Avoid medical claims.
@@ -49,4 +56,3 @@ Use guided breathing, relaxation, and wellness language. Avoid medical claims.
 - Should Android ship as free?
 - Should it have the same reminder defaults as iOS?
 - Should Google Play launch happen after iOS TestFlight or after iOS App Store approval?
-
