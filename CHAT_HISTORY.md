@@ -94,7 +94,13 @@ This file captures the working decisions made while building CalmTide.
   - Screenshot plan
   - Android privacy policy draft
 - Current Android blocker:
-  - Android Studio, Android SDK tools, and Gradle are not installed in this workspace, so a release `.aab` build has not been verified yet.
+  - A device/emulator run has not been verified yet.
+  - ADB works, but no Android device or emulator was attached during the first local Android build verification.
+- Android build verification after Android Studio install:
+  - Installed/used Android SDK Platform 35.
+  - Generated Gradle wrapper files.
+  - Built debug APK successfully.
+  - Built release Android App Bundle successfully.
 
 ## Build Verification
 

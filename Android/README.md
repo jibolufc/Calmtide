@@ -38,4 +38,17 @@ Google Play should use Play App Signing. Keep upload keys private and do not com
 
 ## Local Verification Status
 
-This project was scaffolded from the iOS CalmTide app. It has not been built in this workspace yet because Android Studio, the Android SDK command-line tools, and Gradle are not installed here.
+Verified locally on July 7, 2026:
+
+```sh
+./gradlew :app:assembleDebug :app:bundleRelease
+```
+
+Outputs:
+
+```text
+Android/app/build/outputs/apk/debug/app-debug.apk
+Android/app/build/outputs/bundle/release/app-release.aab
+```
+
+ADB is available from the installed Android SDK, but no Android device or emulator was attached during this verification.

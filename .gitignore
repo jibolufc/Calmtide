@@ -15,9 +15,13 @@ build/
 .build/
 .swiftpm/
 
+# Android / Gradle local state
+.gradle/
+Android/.gradle/
+Android/local.properties
+
 # Local secrets
 .env
 *.mobileprovision
 *.p12
 *.cer
-

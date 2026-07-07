@@ -45,7 +45,10 @@ Android guided breathing app based on CalmTide.
 
 - Native Android project created in `Android/`.
 - Google Play submission prep created in `GooglePlaySubmission/`.
-- Build not yet verified locally because Android Studio, Android SDK tools, and Gradle are not installed in this workspace.
+- Local build verified after Android Studio install.
+- Debug APK output: `Android/app/build/outputs/apk/debug/app-debug.apk`.
+- Release AAB output: `Android/app/build/outputs/bundle/release/app-release.aab`.
+- Device/emulator run still needs to be verified.
 
 ## Store Positioning
 
