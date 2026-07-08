@@ -1,6 +1,6 @@
 # CalmTide App Store Screenshots
 
-Generated from the source iPhone screenshots supplied on July 8, 2026.
+Generated from the source iPhone and iPad screenshots supplied on July 8, 2026.
 
 ## Ready To Upload: No Alpha Channel
 
@@ -32,6 +32,26 @@ The original `1290 x 2796` screenshots are also available as no-alpha JPEGs:
 StoreSubmission/Screenshots/AppStore/iPhone-6.9-jpg-no-alpha/
 ```
 
+## iPad Ready To Upload: No Alpha Channel
+
+Use these JPEG folders for iPad App Store Connect screenshot slots:
+
+```text
+StoreSubmission/Screenshots/AppStore/iPad-13-2752x2064-jpg-no-alpha/
+StoreSubmission/Screenshots/AppStore/iPad-12.9-2732x2048-jpg-no-alpha/
+StoreSubmission/Screenshots/AppStore/iPad-11-2388x1668-jpg-no-alpha/
+```
+
+Files:
+
+```text
+01-dashboard
+02-session-inhale
+03-session-hold
+04-session-exhale
+05-session-rest
+```
+
 ## Original Source-Size Copies
 
 The supplied screenshots were already `1290 x 2796`, which is a valid modern iPhone portrait screenshot size in Apple's screenshot specifications.
@@ -56,4 +76,5 @@ Files:
 - The PNG folders are retained as generated source variants, but they may be rejected by App Store Connect because they contain alpha channels.
 - `1284 x 2778` versions were center-cropped from the originals.
 - `1242 x 2688` versions were resized to exact App Store dimensions.
+- iPad `2732 x 2048` and `2752 x 2064` versions were scaled up and center-cropped from the `2388 x 1668` iPad screenshots.
 - The dashboard and active session screens are currently included; add more screenshots later for About, reminders permission, and any polished onboarding or settings screens if App Store Connect asks for more coverage.

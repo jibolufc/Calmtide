@@ -21,6 +21,14 @@ Original source-size copies:
 StoreSubmission/Screenshots/AppStore/iPhone-6.9-jpg-no-alpha/
 ```
 
+Ready-to-upload no-alpha JPEG iPad landscape sets:
+
+```text
+StoreSubmission/Screenshots/AppStore/iPad-13-2752x2064-jpg-no-alpha/
+StoreSubmission/Screenshots/AppStore/iPad-12.9-2732x2048-jpg-no-alpha/
+StoreSubmission/Screenshots/AppStore/iPad-11-2388x1668-jpg-no-alpha/
+```
+
 ## Screenshot 1: Dashboard
 Show the main CalmTide dashboard with cycle controls, phase duration controls, reminders, and the start button.
 
@@ -47,6 +55,7 @@ Simple, private, and focused
 
 ## Visual Notes
 - Use iPhone 11 or newer simulator screenshots.
+- Use no-alpha JPEG files for App Store Connect uploads.
 - Keep text readable.
 - Avoid notification permission popups in screenshots.
 - Avoid medical language.
