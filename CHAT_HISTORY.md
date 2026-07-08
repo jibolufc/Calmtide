@@ -70,37 +70,19 @@ This file captures the working decisions made while building CalmTide.
 
 ## Android And Google Play Prep
 
-- Added a native Android project scaffold under `Android/`.
-- Chosen Android stack:
-  - Kotlin
-  - Jetpack Compose
-  - Gradle Android application project
-  - Package name `com.ayodele.calmtide`
-  - Minimum SDK 26
-  - Target SDK 35
-- Mirrored CalmTide core features:
-  - Dashboard controls
-  - Breathing phase durations
-  - Reminder toggle and interval
-  - Session screen with animated tide visual
-  - Pause, resume, skip, and end session controls
-  - Local settings persistence
-  - Local notification reminders
-- Added `GooglePlaySubmission/` with:
-  - Google Play requirements tracker
-  - Store listing copy
-  - Data safety draft
-  - Android release checklist
-  - Screenshot plan
-  - Android privacy policy draft
-- Current Android blocker:
-  - A device/emulator run has not been verified yet.
-  - ADB works, but no Android device or emulator was attached during the first local Android build verification.
-- Android build verification after Android Studio install:
-  - Installed/used Android SDK Platform 35.
-  - Generated Gradle wrapper files.
-  - Built debug APK successfully.
-  - Built release Android App Bundle successfully.
+Android-specific chat history has been moved to:
+
+```text
+Android/Notes/ANDROID_CHAT_HISTORY.md
+```
+
+Current Android status:
+
+- Android build verified.
+- Debug APK built.
+- Release AAB built.
+- Samsung Galaxy A03 install verified.
+- User is testing CalmTide on the physical Android device.
 
 ## Build Verification
 
