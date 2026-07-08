@@ -1,5 +1,26 @@
 # Screenshot Plan
 
+## Generated Files
+
+Generated App Store screenshot files live in:
+
+```text
+StoreSubmission/Screenshots/AppStore/
+```
+
+Ready-to-upload iPhone portrait sets:
+
+```text
+StoreSubmission/Screenshots/AppStore/iPhone-6.5-1284x2778/
+StoreSubmission/Screenshots/AppStore/iPhone-6.5-1242x2688/
+```
+
+Original source-size copies:
+
+```text
+StoreSubmission/Screenshots/AppStore/iPhone-6.9/
+```
+
 ## Screenshot 1: Dashboard
 Show the main CalmTide dashboard with cycle controls, phase duration controls, reminders, and the start button.
 
@@ -29,4 +50,3 @@ Simple, private, and focused
 - Keep text readable.
 - Avoid notification permission popups in screenshots.
 - Avoid medical language.
-
