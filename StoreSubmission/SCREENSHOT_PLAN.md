@@ -8,17 +8,17 @@ Generated App Store screenshot files live in:
 StoreSubmission/Screenshots/AppStore/
 ```
 
-Ready-to-upload iPhone portrait sets:
+Ready-to-upload no-alpha JPEG iPhone portrait sets:
 
 ```text
-StoreSubmission/Screenshots/AppStore/iPhone-6.5-1284x2778/
-StoreSubmission/Screenshots/AppStore/iPhone-6.5-1242x2688/
+StoreSubmission/Screenshots/AppStore/iPhone-6.5-1284x2778-jpg-no-alpha/
+StoreSubmission/Screenshots/AppStore/iPhone-6.5-1242x2688-jpg-no-alpha/
 ```
 
 Original source-size copies:
 
 ```text
-StoreSubmission/Screenshots/AppStore/iPhone-6.9/
+StoreSubmission/Screenshots/AppStore/iPhone-6.9-jpg-no-alpha/
 ```
 
 ## Screenshot 1: Dashboard
