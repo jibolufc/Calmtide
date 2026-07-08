@@ -36,5 +36,5 @@ CalmTide is not designed to collect personal information from children.
 This policy may be updated if CalmTide adds new features or data practices. The effective date will be updated when changes are made.
 
 ## Contact
-Add your support email or website here before publishing.
-
+For support or privacy questions, use the CalmTide support page:
+https://jibolufc.github.io/Calmtide/support.html

@@ -24,7 +24,7 @@
 - Category: Health & Fitness.
 - Add pricing and availability.
 - Add age rating.
-- Add privacy policy URL.
+- Add privacy policy URL: `https://jibolufc.github.io/Calmtide/privacy.html`.
 - Fill out App Privacy.
 - Add screenshots.
 - Add app description, subtitle, keywords, and review notes.
@@ -58,4 +58,3 @@ Avoid claims like:
 - Cures panic attacks
 - Fixes insomnia
 - Medical breathing therapy
-

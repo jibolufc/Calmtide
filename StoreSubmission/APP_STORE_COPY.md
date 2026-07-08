@@ -33,17 +33,16 @@ CalmTide is a wellness companion for breathing practice and relaxation. It is no
 breathing,breath,calm,relaxation,meditation,wellness,mindfulness,focus,stress,timer
 
 ## Support URL
-Add your support page URL here before submission.
+https://jibolufc.github.io/Calmtide/support.html
 
 ## Marketing URL
-Optional. Add your product page URL here if you have one.
+https://jibolufc.github.io/Calmtide/
 
 ## Privacy Policy URL
-Required. Publish `PRIVACY_POLICY.md` somewhere public and add that URL here.
+https://jibolufc.github.io/Calmtide/privacy.html
 
 ## App Review Notes
 CalmTide does not require an account or login. The app is a guided breathing and relaxation tool. It stores user settings locally on device with UserDefaults and uses local notifications only if the user grants notification permission.
 
 ## Demo Account
 Not required. CalmTide does not use authentication.
-
