@@ -16,8 +16,14 @@ Files:
 ```text
 01-session-1284x2778.png
 02-dashboard-1284x2778.png
+03-session-rest-1284x2778.png
+04-session-inhale-1284x2778.png
+05-session-hold-1284x2778.png
 01-session-1242x2688.png
 02-dashboard-1242x2688.png
+03-session-rest-1242x2688.png
+04-session-inhale-1242x2688.png
+05-session-hold-1242x2688.png
 ```
 
 ## Original Source-Size Copies
@@ -33,6 +39,9 @@ Files:
 ```text
 01-session-1290x2796.png
 02-dashboard-1290x2796.png
+03-session-rest-1290x2796.png
+04-session-inhale-1290x2796.png
+05-session-hold-1290x2796.png
 ```
 
 ## Notes
@@ -40,4 +49,4 @@ Files:
 - All files are PNG.
 - `1284 x 2778` versions were center-cropped from the originals.
 - `1242 x 2688` versions were resized to exact App Store dimensions.
-- The dashboard and active session screens are currently included; add more screenshots later for About, reminders permission, and any polished onboarding or settings screens.
+- The dashboard and active session screens are currently included; add more screenshots later for About, reminders permission, and any polished onboarding or settings screens if App Store Connect asks for more coverage.
