@@ -14,10 +14,11 @@
 
 ## Release
 
-- Create upload keystore outside the repo.
-- Add signing config locally or through Android Studio.
-- Build release Android App Bundle: `./gradlew bundleRelease`.
+- Create upload keystore locally and keep it out of Git.
+- Configure `Android/keystore.properties` from `Android/keystore.properties.example`.
+- Build release Android App Bundle: `./gradlew :app:bundleRelease`.
 - Confirm release output is an `.aab`, not just an `.apk`.
+- Confirm the `.aab` is signed before uploading.
 - Upload to Play Console internal testing.
 - Test install from Google Play internal testing.
 

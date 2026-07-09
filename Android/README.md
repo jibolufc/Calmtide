@@ -22,16 +22,17 @@ This folder contains a native Android version of CalmTide built with Kotlin and 
 
 ## Release Build
 
-For Google Play, build an Android App Bundle:
+For Google Play, build a signed Android App Bundle. The release build reads local
+signing details from `Android/keystore.properties`, which must never be committed.
 
 ```sh
-./gradlew bundleRelease
+./gradlew :app:bundleRelease
 ```
 
-The unsigned or locally signed bundle is produced under:
+The signed bundle is produced at:
 
 ```text
-Android/app/build/outputs/bundle/release/
+Android/app/build/outputs/bundle/release/app-release.aab
 ```
 
 Google Play should use Play App Signing. Keep upload keys private and do not commit keystores or passwords to Git.

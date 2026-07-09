@@ -19,9 +19,13 @@ build/
 .gradle/
 Android/.gradle/
 Android/local.properties
+Android/keystore.properties
+Android/keystores/
 
 # Local secrets
 .env
 *.mobileprovision
 *.p12
 *.cer
+*.jks
+*.keystore
