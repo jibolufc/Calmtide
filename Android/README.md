@@ -24,6 +24,8 @@ This folder contains a native Android version of CalmTide built with Kotlin and 
 
 For Google Play, build a signed Android App Bundle. The release build reads local
 signing details from `Android/keystore.properties`, which must never be committed.
+Release builds use R8 minification and resource shrinking to reduce download size
+and improve Google Play's optimisation checks.
 
 ```sh
 ./gradlew :app:bundleRelease

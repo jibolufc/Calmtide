@@ -19,6 +19,7 @@
 - Build release Android App Bundle: `./gradlew :app:bundleRelease`.
 - Confirm release output is an `.aab`, not just an `.apk`.
 - Confirm the `.aab` is signed before uploading.
+- Confirm release builds have R8 minification and resource shrinking enabled.
 - Upload to Play Console internal testing.
 - Test install from Google Play internal testing.
 

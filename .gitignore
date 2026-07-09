@@ -21,6 +21,7 @@ Android/.gradle/
 Android/local.properties
 Android/keystore.properties
 Android/keystores/
+*.aab
 
 # Local secrets
 .env
