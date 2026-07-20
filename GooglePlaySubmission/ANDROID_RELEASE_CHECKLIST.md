@@ -16,6 +16,7 @@
 
 - Create upload keystore locally and keep it out of Git.
 - Configure `Android/keystore.properties` from `Android/keystore.properties.example`.
+- Increase `versionCode` for every new Google Play upload.
 - Build release Android App Bundle: `./gradlew :app:bundleRelease`.
 - Confirm release output is an `.aab`, not just an `.apk`.
 - Confirm the `.aab` is signed before uploading.
